@@ -1,27 +1,68 @@
 article {
-    margin-top: 10px;
+    padding: 15px;
+    margin: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
-    grid-gap: 0.5em;
-    margin-right: 25px;
-    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
-    background-color: #a4a4a4;
-    width: auto;
-    position: relative;
-    border: 1px solid #747474;
-    border-radius: 5px;
+    height: 150px;
+    width: 300px;
+    background: #f2f2f2;
     overflow: hidden;
-    box-shadow: 2px 5px 5px #4f4e4e;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 8px #d0d0d0;
 }
 article:hover{
-    background-color: #91bed7;
+    background-color: #f2f2f2;
+    box-shadow: 0px 15px 20px rgba(161, 161, 161, 0.4);
+    transform: translateY(-7px);
 }
-.card_buttons{
-    width:10px;
+
+.card_buttons {
+    width: 10px;
 }
-.todocard_id{
+
+.update_button {
+    margin-top: 10px;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.update_button:hover {
+    transition: 1s ease-in-out;
+    border: 1px solid #4F95DA;
+
+}
+
+.delete_button {
+    margin-top: 10px;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.delete_button:hover {
+    transition: 1s ease-in-out;
+    border: 1px solid #6e0a0a;
+}
+
+.todocard_id {
     font-size: small;
+    text-align: center;
+    text-shadow: 1px 1px #c4c4c4;
 }
-.todo_description{
+
+.todo_description {
+    margin-top: 20px;
     font-size: large;
+    font-family: fantasy;
+    text-align: center;
+    text-shadow: 1px 1px #c4c4c4;
 }
