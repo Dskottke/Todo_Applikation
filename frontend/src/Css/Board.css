@@ -1,5 +1,13 @@
-h1{
+h1 {
     font-family: monospace;
     text-shadow: 1px 1px #d5d5d5;
     text-align: center;
 }
+.board{
+    display: grid;
+    justify-content: center;
+
+}
+
+
+
