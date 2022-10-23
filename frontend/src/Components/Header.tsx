@@ -3,9 +3,9 @@ import '../Css/Header.css';
 
 function Header() {
     return (
-            <header>
-
-            </header>
+        <header>
+            <div className={"header_overlay"}/>
+        </header>
 
     );
 }
