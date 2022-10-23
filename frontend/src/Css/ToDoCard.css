@@ -33,6 +33,7 @@ article:hover{
 
 .update_button:hover {
     transition: 1s ease-in-out;
+    background-color: #83edfc;
     border: 1px solid #4F95DA;
 
 }
@@ -50,6 +51,7 @@ article:hover{
 
 .delete_button:hover {
     transition: 1s ease-in-out;
+    background-color: #ffabb8;
     border: 1px solid #6e0a0a;
 }
 
