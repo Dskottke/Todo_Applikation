@@ -17,7 +17,7 @@ function Board(props: boardProps) {
         <div className={"board"}>
             <h1>{props.title}</h1>
 
-           {props.todos.map(todo => <ToDoCard todo={todo} updateToDo={props.updateToDo}
+            {props.todos.map(todo => <ToDoCard todo={todo} updateToDo={props.updateToDo}
                                                deleteToDo={props.deleteToDo} key={todo.id}/>)}
 
 
